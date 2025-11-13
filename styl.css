@@ -1,0 +1,178 @@
+body 
+{
+
+  font-family: 'Arial', sans-serif;
+  background-color: #00010c;
+  color: #f9f9f9;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.headerContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 10rem 2rem;
+
+}
+
+.textContainer h1 
+{
+
+  font-size: 3.7rem;
+  margin-bottom: 0.2rem;
+
+}
+
+.lname 
+{
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+.textContainer p {
+  font-size: 1.1rem;
+  color: #f9f9f9;
+  margin-bottom: 0;
+  
+}
+
+.profile-img 
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: drop-shadow(0 0 15px #0ff);
+}
+
+
+.about 
+{
+  padding: 8rem 10rem 10rem;
+}
+
+.about h1 
+{
+  font-size: 4.5rem;
+}
+
+.about p 
+{
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+
+.curriculum 
+{
+  padding: 5rem 10rem 10rem;
+  background-color:#00010c;
+  color:#0ff;
+  
+}
+
+.curriculum h2 
+{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.curriculum h3 
+{
+  margin-top: 1.5rem;
+  color: #00010c;
+  text-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+.curriculum li 
+{
+  font-size: 1.52rem;
+  color:#f9f9f9;
+  margin-top: 0.5rem;
+}
+
+
+.motivation 
+{
+  background-color:#0ff;
+  padding: 5rem 10rem 10rem;
+}
+
+.motivation h2 
+{
+  font-size: 3rem;
+  color:#00010c;
+  margin-bottom: 1rem;
+}
+
+.motivation p 
+{
+  color: #000000;
+  font-size: 1.2rem;
+  max-width: 900px;
+}
+
+
+ul 
+{
+  list-style-type: square;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+
+a {
+  color:#0ff;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  
+  filter: drop-shadow(0 0 15px #0ff);
+}
+
+
+footer 
+{
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 3rem 0 2rem;
+}
+
+.contact-icons 
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.contact-icons img 
+{
+  width: 35px;
+  height: 35px;
+  transition: transform 0.2s ease, filter 0.3s ease;
+  cursor: pointer;
+  filter: grayscale(100%) brightness(0.7);
+}
+
+.contact-icons img:hover 
+{
+  transform: scale(1.2);
+  filter: none;
+
+}
+
+
+
+
+
+
+
